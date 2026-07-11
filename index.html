@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CRYSTAL NEON</title>
+<meta name="description" content="水晶とネオンをテーマにしたダークUIサイト">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><polygon points=%2250,5 90,35 75,95 25,95 10,35%22 fill=%22%2300111a%22 stroke=%22%2300eaff%22 stroke-width=%224%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Noto+Sans+JP:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<header class="site-header">
+  <a href="#top" class="logo">CRYSTAL<span>NEON</span></a>
+  <nav class="nav">
+    <a href="#concept">Concept</a>
+    <a href="#facets">Facets</a>
+    <a href="#works">Works</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="メニュー切り替え" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main id="top">
+
+  <section class="hero" id="hero">
+    <div class="hero-crystal" aria-hidden="true">
+      <div class="facet f1"></div>
+      <div class="facet f2"></div>
+      <div class="facet f3"></div>
+      <div class="facet f4"></div>
+    </div>
+    <p class="eyebrow">// CRYSTAL &amp; NEON EXPERIENCE</p>
+    <h1 class="hero-title">
+      <span class="glitch" data-text="透明な光、">透明な光、</span>
+      <span class="glitch" data-text="鋭い夜。">鋭い夜。</span>
+    </h1>
+    <p class="hero-lead">
+      漆黒の闇に浮かぶ水晶の結晶体と、脈打つ水色のネオン。<br>
+      静寂と輝度が交差する、次世代のダークインターフェース。
+    </p>
+    <div class="hero-actions">
+      <a href="#works" class="btn btn-primary">WORKS を見る</a>
+      <a href="#contact" class="btn btn-ghost">CONTACT</a>
+    </div>
+    <div class="scroll-hint" aria-hidden="true"><span></span>SCROLL</div>
+  </section>
+
+  <section class="concept" id="concept">
+    <h2 class="section-title"><span>01</span> CONCEPT</h2>
+    <div class="concept-grid">
+      <article class="concept-card">
+        <div class="concept-icon">◈</div>
+        <h3>CRYSTAL CLARITY</h3>
+        <p>幾何学的な多面体が生み出す屈折光。情報を澄んだ形で伝える、透明感のある設計。</p>
+      </article>
+      <article class="concept-card">
+        <div class="concept-icon">⚡</div>
+        <h3>NEON PULSE</h3>
+        <p>都市の夜を象徴する水色の発光。アクセントは強く、しかし主張しすぎない絶妙な均衡。</p>
+      </article>
+      <article class="concept-card">
+        <div class="concept-icon">◆</div>
+        <h3>DEEP BLACK</h3>
+        <p>限りなく黒に近い背景が、光の輪郭を際立たせる。余白そのものを演出として扱う。</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="facets" id="facets">
+    <h2 class="section-title"><span>02</span> FACETS</h2>
+    <div class="facet-list">
+      <div class="facet-item">
+        <span class="facet-num">I.</span>
+        <div class="facet-body">
+          <h3>Structure</h3>
+          <p>意味のある余白と非対称グリッドで構築されたレイアウト。視線の流れを結晶構造のように誘導する。</p>
+        </div>
+      </div>
+      <div class="facet-item">
+        <span class="facet-num">II.</span>
+        <div class="facet-body">
+          <h3>Light</h3>
+          <p>グロー・ブラー・グラデーションを重ねたネオン発光表現。ホバー時に反応する光の粒子。</p>
+        </div>
+      </div>
+      <div class="facet-item">
+        <span class="facet-num">III.</span>
+        <div class="facet-body">
+          <h3>Motion</h3>
+          <p>過度に主張しないアニメーション。フェードとパララックスで、静けさの中の躍動感を表現。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="works" id="works">
+    <h2 class="section-title"><span>03</span> WORKS</h2>
+    <div class="works-grid">
+      <a class="work-card" href="#">
+        <div class="work-thumb" style="--hue:190"></div>
+        <h3>Prism Interface</h3>
+        <p>UI Design / 2026</p>
+      </a>
+      <a class="work-card" href="#">
+        <div class="work-thumb" style="--hue:200"></div>
+        <h3>Neon District</h3>
+        <p>Brand Identity / 2026</p>
+      </a>
+      <a class="work-card" href="#">
+        <div class="work-thumb" style="--hue:180"></div>
+        <h3>Quartz Motion</h3>
+        <p>Motion Graphics / 2025</p>
+      </a>
+      <a class="work-card" href="#">
+        <div class="work-thumb" style="--hue:210"></div>
+        <h3>Glacier Grid</h3>
+        <p>Web Experience / 2025</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title"><span>04</span> CONTACT</h2>
+    <p class="contact-lead">プロジェクトのご相談、お問い合わせはこちらから。</p>
+    <a class="btn btn-primary btn-large" href="mailto:hello@example.com">hello@example.com</a>
+    <ul class="social-list">
+      <li><a href="#" aria-label="X (Twitter)">X</a></li>
+      <li><a href="#" aria-label="GitHub">GitHub</a></li>
+      <li><a href="#" aria-label="Instagram">Instagram</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2026 CRYSTAL NEON. All rights reserved.</p>
+  <a href="#top" class="to-top">▲ TOP</a>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
