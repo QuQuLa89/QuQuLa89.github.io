@@ -8,12 +8,10 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><polygon points=%2250,5 90,35 75,95 25,95 10,35%22 fill=%22%2300111a%22 stroke=%22%2300eaff%22 stroke-width=%224%22/></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Noto+Sans+JP:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-
-<canvas id="fx" aria-hidden="true"></canvas>
 
 <header class="site-header">
   <a href="#top" class="logo">CRYSTAL<span>NEON</span></a>
@@ -31,24 +29,28 @@
 <main id="top">
 
   <section class="hero" id="hero">
-    <div class="hero-crystal" aria-hidden="true">
-      <div class="facet f1"></div>
-      <div class="facet f2"></div>
-      <div class="facet f3"></div>
-      <div class="facet f4"></div>
+    <div class="hero-copy">
+      <p class="eyebrow">// QUQULA89 PORTFOLIO</p>
+      <h1 class="hero-title">
+        <span>作りたいものを、</span>
+        <span>作り続ける。</span>
+      </h1>
+      <p class="hero-lead">
+        東京を拠点に活動する QuQuLa89 / キュキュラです。<br>
+        Python を中心に、Discord Bot・CLIツール・Minecraftプラグインを日々つくっています。
+      </p>
+      <div class="hero-actions">
+        <a href="#works" class="btn btn-primary">WORKS を見る</a>
+        <a href="#contact" class="btn btn-ghost">CONTACT</a>
+      </div>
     </div>
-    <p class="eyebrow">// QUQULA89 PORTFOLIO</p>
-    <h1 class="hero-title">
-      <span class="glitch" data-text="作りたいものを、">作りたいものを、</span>
-      <span class="glitch" data-text="作り続ける。">作り続ける。</span>
-    </h1>
-    <p class="hero-lead">
-      東京を拠点に活動する QuQuLa89 / キュキュラです。<br>
-      Python を中心に、Discord Bot・CLIツール・Minecraftプラグインを日々つくっています。
-    </p>
-    <div class="hero-actions">
-      <a href="#works" class="btn btn-primary">WORKS を見る</a>
-      <a href="#contact" class="btn btn-ghost">CONTACT</a>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 200 240" fill="none" xmlns="http://www.w3.org/2000/svg" role="presentation">
+        <polygon points="100,6 30,58 100,90" fill="rgba(0,234,255,0.07)"/>
+        <polygon points="100,90 52,164 100,234 148,164" fill="rgba(0,234,255,0.035)"/>
+        <polygon points="100,6 170,58 148,164 100,234 52,164 30,58" stroke="#00eaff" stroke-opacity="0.6" stroke-width="1"/>
+        <path d="M100 6 L100 90 M30 58 L100 90 L170 58 M100 90 L52 164 M100 90 L148 164 M52 164 L148 164" stroke="#00eaff" stroke-opacity="0.3" stroke-width="1"/>
+      </svg>
     </div>
     <div class="scroll-hint" aria-hidden="true"><span></span>SCROLL</div>
   </section>

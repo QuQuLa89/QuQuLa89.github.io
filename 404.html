@@ -4,31 +4,35 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>404 | CRYSTAL NEON — QuQuLa89</title>
-<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Noto+Sans+JP:wght@300;400;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <style>
   .not-found {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
-    text-align: center;
     gap: 1.6rem;
-    padding: 2rem;
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 2rem clamp(1.5rem, 6vw, 4rem);
   }
   .not-found h1 {
-    font-size: clamp(3rem, 12vw, 7rem);
+    font-family: var(--font-mono);
+    font-weight: 600;
+    font-size: clamp(3rem, 12vw, 6rem);
+    line-height: 1;
     color: var(--ink);
-    text-shadow: var(--glow-lg);
+    border-bottom: 1px solid var(--line-strong);
+    padding-bottom: 1.2rem;
   }
   .not-found p { max-width: 32em; }
 </style>
 </head>
 <body>
-<canvas id="fx" aria-hidden="true"></canvas>
 <main class="not-found">
-  <h1 class="glitch" data-text="404">404</h1>
+  <h1>404</h1>
   <p>お探しのページは見つかりませんでした。まだ作っていないか、URLが変わってしまったようです。</p>
   <a class="btn btn-primary" href="/">TOP へ戻る</a>
 </main>
